@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-tema="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Vyctor Ferreira Bandeira — desenvolvedor front-end e back-end. HTML, CSS, JavaScript, Python, Node.js e SQL, projeto a projeto.">
+  <meta name="keywords" content="desenvolvedor, front-end, back-end, web, portfolio, JavaScript, Python, Node.js, HTML, CSS">
+  <meta name="author" content="Vyctor Ferreira Bandeira">
+  <meta name="theme-color" content="#c1653a">
+  <title>Vyctor Ferreira Bandeira — desenvolvedor front & back</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vyctor Ferreira Bandeira — desenvolvedor front & back">
+  <meta property="og:description" content="Portfólio de Vyctor Ferreira Bandeira — desenvolvedor front-end e back-end. HTML, CSS, JavaScript, Python, Node.js e SQL.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/perfil.jpg">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vyctor Ferreira Bandeira — desenvolvedor front & back">
+  <meta name="twitter:description" content="Portfólio de Vyctor Ferreira Bandeira — desenvolvedor front-end e back-end.">
+  <meta name="twitter:image" content="img/perfil.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='6' fill='%23221d15'/><text x='50' y='72' font-size='60' text-anchor='middle' fill='%23f1e8d8' font-family='Georgia,serif' font-style='italic'>v</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,30..100,0..1;1,9..144,300..600,30..100,0..1&family=Karla:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <noscript><style>.mascara>span,.reveal,.anim-wipe,.anim-slide,.anim-slide-r,.anim-scale,.anim-flip,.anim-bounce,.anim-clip,.anim-carril,.anim-contador,.anim-linha,.term-linha{opacity:1!important;transform:none!important;clip-path:none!important;width:auto!important}</style></noscript>
+</head>
+<body>
+
+  <!-- preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-logo">V</div>
+    <div class="preloader-barra"><span></span></div>
+  </div>
+
+  <!-- skip to content -->
+  <a href="#topo" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- scroll progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="barra" id="barra">
+    <div class="wrap barra-inner">
+      <a href="#topo" class="marca">
+        <span class="logo">Vyctor</span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Menu principal">
+        <a href="#topo">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Áreas</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="barra-acoes">
+        <button class="tema" id="botao-tema" aria-label="Alternar tema escuro e claro">
+          <span class="tema-claro" aria-hidden="true">tema&nbsp;claro</span>
+          <span class="tema-escuro" aria-hidden="true">tema&nbsp;escuro</span>
+        </button>
+        <button class="menu-botao" id="botao-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- CAPA -->
+    <section id="topo" class="capa" aria-label="Capa">
+      <!-- gradient orbs -->
+      <div class="orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+
+      <!-- formas 3D -->
+      <div class="formas-3d" aria-hidden="true">
+        <div class="forma forma-cubo"></div>
+        <div class="forma forma-losango"></div>
+        <div class="forma forma-triangulo"></div>
+        <div class="forma forma-anel"></div>
+        <div class="forma forma-cruz"></div>
+      </div>
+
+      <div class="wrap capa-grid">
+        <div class="capa-texto">
+          <p class="capa-rotulo anim-wipe"><span>bem-vindo(a), um pouco sobre mim.</span></p>
+
+          <h1 class="capa-titulo">
+            <span class="linha"><span class="mascara"><span>Vyctor</span></span></span>
+            <span class="linha linha-2"><span class="mascara"><span><em>Ferreira</em></span></span></span>
+            <span class="linha linha-3"><span class="mascara"><span>Bandeira</span></span></span>
+          </h1>
+
+          <p class="capa-sub mascara sub-a"><span>
+            Construo da tela ao servidor: HTML, CSS e JavaScript do lado de fora,
+            Python, Node.js e SQL do lado de dentro. Aprendo resolvendo problema
+            real — projeto a projeto, sem pular etapas.
+          </span></p>
+
+          <div class="capa-acoes">
+            <a href="#projetos" class="botao botao-tinta anim-bounce mag" style="--d:.35s">Ver projetos</a>
+            <a href="#contato" class="botao botao-linha anim-bounce mag" style="--d:.42s">Conversar</a>
+          </div>
+
+          <ul class="capa-stack" aria-label="Tecnologias">
+            <li class="anim-carril" style="--d:.5s">html</li>
+            <li class="anim-carril" style="--d:.56s">css</li>
+            <li class="anim-carril" style="--d:.62s">javascript</li>
+            <li class="anim-carril" style="--d:.68s">python</li>
+            <li class="anim-carril" style="--d:.74s">node.js</li>
+            <li class="anim-carril" style="--d:.8s">sql</li>
+          </ul>
+        </div>
+
+        <div class="capa-lado">
+          <figure class="perfil anim-clip" id="perfil" style="--d:.15s">
+            <img src="img/perfil.jpg" alt="Retrato de Vyctor Ferreira Bandeira" loading="lazy"
+                 onerror="this.parentElement.classList.add('sem-foto')">
+            <div class="perfil-selo" aria-hidden="true">
+              <span class="perfil-mono">VFB</span>
+              <span class="perfil-legenda">retrato — em breve</span>
+            </div>
+          </figure>
+
+          <dl class="ficha">
+            <div class="ficha-li anim-slide-r" style="--d:.25s"><dt>foco</dt><dd>front &amp; back</dd></div>
+            <div class="ficha-li anim-slide-r" style="--d:.32s"><dt>ritmo</dt><dd>projeto por projeto</dd></div>
+            <div class="ficha-li anim-slide-r" style="--d:.39s">
+          </dl>
+        </div>
+      </div>
+
+      <a class="rolar" href="#sobre" aria-label="Rolar para a seção Sobre">
+        <span>role</span><span class="rolar-traco"></span>
+      </a>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao" data-num="01" aria-label="Sobre mim">
+      <div class="wrap">
+        <header class="secao-cabec anim-wipe">
+          <span class="secao-num anim-contador">01</span>
+          <p class="rotulo">Sobre</p>
+          <span class="secao-traco anim-linha" aria-hidden="true"></span>
+        </header>
+
+        <div class="sobre-grid">
+          <div class="sobre-esquerda">
+            <h2 class="titulo mascara reveal"><span>
+              Olá, sou o <em>Vyctor Ferreira Bandeira</em>, desenvolvedor front &amp; back.
+            </span></h2>
+
+            <div class="terminal-ativo anim-scale" id="terminal-ativo" aria-hidden="true">
+              <div class="term-barra">
+                <span class="term-ponto term-ponto-a"></span>
+                <span class="term-ponto term-ponto-b"></span>
+                <span class="term-ponto term-ponto-c"></span>
+                <span class="term-titulo">vyctor@portfolio ~ %</span>
+              </div>
+              <div class="term-corpo" id="term-corpo">
+                <div class="term-linha" data-delay="400"><span class="term-prompt">❯</span> <span class="term-cmd" data-text="neofetch --short"></span><span class="term-cursor">▊</span></div>
+                <div class="term-linha term-saida" data-delay="1800">  <span class="term-verde">vyctor</span>@<span class="term-azul">portfolio</span></div>
+                <div class="term-linha term-saida" data-delay="1900">  OS: Linux (aprendizado)</div>
+                <div class="term-linha term-saida" data-delay="2000">  Shell: <span class="term-mostarda">dedicação</span> + <span class="term-terracota">café</span></div>
+                <div class="term-linha term-saida" data-delay="2100">  Uptime: <span class="term-verde">desde 2024</span></div>
+                <div class="term-linha" data-delay="2800"><span class="term-prompt">❯</span> <span class="term-cmd" data-text="cat stack.json"></span><span class="term-cursor">▊</span></div>
+                <div class="term-linha term-saida" data-delay="4200">  {</div>
+                <div class="term-linha term-saida" data-delay="4300">    <span class="term-azul">"frontend"</span>: [<span class="term-verde">"HTML"</span>, <span class="term-verde">"CSS"</span>, <span class="term-mostarda">"JavaScript"</span>],</div>
+                <div class="term-linha term-saida" data-delay="4400">    <span class="term-azul">"backend"</span>:  [<span class="term-mostarda">"Python"</span>, <span class="term-terracota">"Node.js"</span>, <span class="term-azul">"SQL"</span>],</div>
+                <div class="term-linha term-saida" data-delay="4500">    <span class="term-azul">"aprendendo"</span>: [<span class="term-verde">"React"</span>, <span class="term-terracota">"Docker"</span>, <span class="term-mostarda">"TypeScript"</span>]</div>
+                <div class="term-linha term-saida" data-delay="4600">  }</div>
+                <div class="term-linha" data-delay="5300"><span class="term-prompt">❯</span> <span class="term-cmd" data-text="./construir --do-zero"></span><span class="term-cursor">▊</span></div>
+                <div class="term-linha term-saida term-sucesso" data-delay="7000">  ✓ projeto construído com as próprias mãos</div>
+                <div class="term-linha term-saida" data-delay="7300">  <span class="term-verde">▶</span> <span class="term-italico">pronto pra próxima etapa</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sobre-texto">
+            <p class="anim-slide" style="--d:.1s">
+              Comecei do zero, sem curso e sem template: lendo documentação, quebrando
+              código e refazendo. Hoje escrevo o front-end para o que aparece na tela e
+              o back-end para o que acontece por baixo dela. A régua é a mesma dos times
+              onde quero trabalhar — código limpo, problema entendido antes de abrir o
+              editor, entrega honesta.
+            </p>
+
+            <div class="como-trabalho">
+              <h3 class="rotulo rotulo-escuro anim-wipe" style="--d:.15s">Como trabalho</h3>
+              <ol>
+                <li class="anim-carril" style="--d:.2s"><b>01</b><span>Entendo o problema antes de escrever a primeira linha.</span></li>
+                <li class="anim-carril" style="--d:.28s"><b>02</b><span>Começo pequeno, testo e cresço com pé no chão.</span></li>
+                <li class="anim-carril" style="--d:.36s"><b>03</b><span>Pergunto sem constrangimento e anoto o que aprendi.</span></li>
+                <li class="anim-carril" style="--d:.44s"><b>04</b><span>Deixo o código legível para a próxima pessoa — quase sempre eu.</span></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao secao-tinta" data-num="02" aria-label="Projetos">
+      <div class="wrap">
+        <header class="secao-cabec anim-wipe">
+          <span class="secao-num anim-contador">02</span>
+          <p class="rotulo">Projetos</p>
+          <span class="secao-traco anim-linha" aria-hidden="true"></span>
+        </header>
+
+        <h2 class="titulo mascara reveal"><span>Trabalhos <em>públicos</em></span></h2>
+
+        <div class="projetos-lista" id="projetos-lista">
+          <a class="proj-linha anim-slide" style="--d:.05s" href="https://github.com/vyctorferreira-01/front-end" target="_blank" rel="noopener">
+            <span class="proj-num">01</span>
+            <span class="proj-info">
+              <span class="proj-titulo">Projetos front-end</span>
+              <span class="proj-desc">Páginas e interações construídas na prática: eleição, barbearia, calculadora, baralho e mais.</span>
+            </span>
+            <span class="proj-meta">html · css · js</span>
+            <span class="proj-seta" aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="projetos-cta anim-scale" style="--d:.2s">
+          <div>
+            <p class="rotulo rotulo-escuro">colaboração</p>
+            <p class="cta-titulo">Tem um projeto em mente?</p>
+          </div>
+          <a href="#contato" class="cta-link">Vamos conversar <i aria-hidden="true">→</i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ÁREAS -->
+    <section id="habilidades" class="secao" data-num="03" aria-label="Habilidades">
+      <div class="wrap">
+        <header class="secao-cabec anim-wipe">
+          <span class="secao-num anim-contador">03</span>
+          <p class="rotulo">Áreas de atuação</p>
+          <span class="secao-traco anim-linha" aria-hidden="true"></span>
+        </header>
+
+        <h2 class="titulo mascara reveal"><span>O que uso <em>todo dia</em></span></h2>
+
+        <div class="skills-grid">
+          <div class="skill-panel anim-flip" style="--d:.05s">
+            <h3 class="skill-titulo">Front-end</h3>
+            <p class="skill-desc rotulo">o que a tela mostra</p>
+            <ul class="skill-linha">
+              <li><span>HTML &amp; CSS</span><small>estrutura semântica, layout, responsivo</small></li>
+              <li><span>JavaScript</span><small>interação, DOM, lógica de interface</small></li>
+              <li><span>Design responsivo</span><small>do celular ao desktop</small></li>
+              <li><span>Acessibilidade</span><small>semântica, teclado, contraste</small></li>
+            </ul>
+          </div>
+
+          <div class="skill-panel anim-flip" style="--d:.15s">
+            <h3 class="skill-titulo">Back-end</h3>
+            <p class="skill-desc rotulo">o que acontece por baixo</p>
+            <ul class="skill-linha">
+              <li><span>Python</span><small>lógica, scripts, automação</small></li>
+              <li><span>Node.js</span><small>servidores e rotas</small></li>
+              <li><span>SQL</span><small>modelar e consultar dados</small></li>
+              <li><span>APIs REST</span><small>fazer sistemas se comunicarem</small></li>
+            </ul>
+          </div>
+
+          <div class="skill-radar anim-flip" style="--d:.25s">
+            <h3 class="skill-titulo skill-titulo-pequeno">Atualização constante</h3>
+            <p class="skill-desc rotulo">o que estou aprendendo</p>
+            <ul class="skill-linha">
+              <li><span>React &amp; TypeScript</span><small>componentes e tipagem no front</small></li>
+              <li><span>Docker &amp; deploy</span><small>empacotar e colocar no ar</small></li>
+              <li><span>Autenticação</span><small>sessão, token, segurança</small></li>
+              <li><span>Consulta otimizada</span><small>index, plano de execução, cache</small></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-faixa">
+        <span class="marquee-item">front-end</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">back-end</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">banco de dados</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">HTML</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">CSS</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">JavaScript</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">Python</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">Node.js</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">SQL</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">React</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">TypeScript</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">Docker</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">APIs REST</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">front-end</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">back-end</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">banco de dados</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">HTML</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">CSS</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">JavaScript</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">Python</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">Node.js</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">SQL</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">React</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">TypeScript</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">Docker</span>
+        <span class="marquee-ponto">◆</span>
+        <span class="marquee-item">APIs REST</span>
+        <span class="marquee-ponto">◆</span>
+      </div>
+    </div>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao" data-num="04" aria-label="Contato">
+      <div class="wrap">
+        <header class="secao-cabec anim-wipe">
+          <span class="secao-num anim-contador">04</span>
+          <p class="rotulo">Contato</p>
+          <span class="secao-traco anim-linha" aria-hidden="true"></span>
+        </header>
+
+        <div class="contato-grid">
+          <div class="contato-intro">
+            <h2 class="titulo titulo-gigante mascara reveal"><span>Vamos <em>conversar</em>?</span></h2>
+            <p class="anim-slide" style="--d:.1s">
+              Uma vaga, uma ideia, uma crítica de código — qualquer um desses
+              funciona. Manda uma mensagem que eu respondo.
+            </p>
+
+            <form class="formulario anim-scale" style="--d:.15s" id="formulario" novalidate>
+              <label for="f-nome">Nome</label>
+              <input type="text" id="f-nome" name="nome" placeholder="Como posso te chamar?" required autocomplete="name">
+
+              <label for="f-email">Email</label>
+              <input type="email" id="f-email" name="email" placeholder="voce@email.com" required autocomplete="email">
+
+              <label for="f-msg">Mensagem</label>
+              <textarea id="f-msg" name="msg" rows="4" placeholder="Fala sobre o que você quer construir" required></textarea>
+
+              <button type="submit" class="botao botao-tinta">Enviar mensagem</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <aside class="contato-extra">
+            <a href="mailto:vyctor.bandeira@escola.pr.gov.br" class="email-grande anim-scale" data-email="vyctor.bandeira@escola.pr.gov.br" style="--d:.2s">
+              <span class="rotulo">o caminho direto</span>
+              <span>vyctor.bandeira@escola.pr.gov.br</span>
+            </a>
+            <div class="toast" id="toast" aria-live="polite">Copiado!</div>
+
+            <div class="contato-canais">
+              <a href="https://github.com/vyctorferreira-01" target="_blank" rel="noopener" class="anim-bounce" style="--d:.25s">
+                <b>gh</b><span>GitHub</span><i aria-hidden="true">↗</i>
+              </a>
+              <a href="https://wa.me/5541984721631" target="_blank" rel="noopener" class="anim-bounce" style="--d:.32s">
+                <b>wa</b><span>WhatsApp</span><i aria-hidden="true">↗</i>
+              </a>
+            </div>
+
+            <div class="term-status anim-scale" style="--d:.45s" aria-hidden="true">
+              <div class="term-barra">
+                <span class="term-ponto term-ponto-a"></span>
+                <span class="term-ponto term-ponto-b"></span>
+                <span class="term-ponto term-ponto-c"></span>
+                <span class="term-titulo">radar@contato:~</span>
+              </div>
+              <div class="term-status-corpo">
+                <div class="radar">
+                  <div class="radar-anel radar-anel-1"></div>
+                  <div class="radar-anel radar-anel-2"></div>
+                  <div class="radar-anel radar-anel-3"></div>
+                  <div class="radar-barra"></div>
+                  <div class="radar-centro"></div>
+                  <div class="radar-ponto radar-ponto-1"></div>
+                  <div class="radar-ponto radar-ponto-2"></div>
+                  <div class="radar-ponto radar-ponto-3"></div>
+                </div>
+                <div class="radar-info">
+                  <div class="radar-linha">
+                    <span class="radar-label">status</span>
+                    <span class="radar-valor" id="status-valor">disponível</span>
+                  </div>
+                  <div class="radar-linha">
+                    <span class="radar-label">horário</span>
+                    <span class="radar-valor" id="status-hora">--:--</span>
+                  </div>
+                  <div class="radar-linha">
+                    <span class="radar-label">energia</span>
+                    <span class="radar-barra-vida">
+                      <span class="radar-barra-vida-fill"></span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p class="contato-nota anim-slide" style="--d:.5s"></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <div class="rodape-topo">
+        <a class="rodape-marca" href="#topo">Vyctor Ferreira Bandeira</a>
+        <nav class="rodape-nav" aria-label="Rodapé">
+          <a href="#topo">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#habilidades">Áreas</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <button class="ao-topo" id="ao-topo" aria-label="Voltar ao topo">↑</button>
+      </div>
+      <div class="rodape-base">
+        <p>© 2026 Vyctor Ferreira Bandeira — Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scroll to top -->
+  <button class="ao-topo" id="aoTopo" aria-label="Voltar ao topo">
+    <span class="seta" aria-hidden="true">↑</span>
+  </button>
+
+  <!-- easter egg -->
+  <div class="easter-egg" id="easterEgg" aria-hidden="true">
+    <div class="easter-egg-conteudo">
+      <span class="easter-egg-emoji">🌮</span>
+      <p class="easter-egg-texto">Você encontrou o segredo!<br>Isso não leva a lugar nenhum.</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
